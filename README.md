@@ -127,7 +127,7 @@ pipeline {
     stages {
         stage('Clone repository') {
             steps {
-                git 'https://github.com/TechVerito-Software-Solutions-LLP/devops-fullstack-app'
+                git 'https://github.com/"your repo"/devops-fullstack-app'
             }
         }
         stage('Build Docker Images') {
